@@ -4,7 +4,7 @@ html {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #ff0066;
+    background-color: #00ffff;
     padding: 0 20px 20px 20px;
     border: 5px solid #660066;
   }
@@ -17,4 +17,14 @@ body {
 .head-image {
     display: block;
     margin: 0 auto;
+}
+
+
+figure {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.popular {
+    border: 4px dotted red;
 }
