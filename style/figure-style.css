@@ -1,0 +1,67 @@
+html {
+    background-color: rgb(211, 91, 21);
+}
+
+body {
+    margin: 2rem auto;
+    width: 70%;
+    height: 80%;
+    align-items: center;
+    background-color: rgb(250, 170, 141);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #333399;
+    text-shadow: 2px 2px white;
+    font-family: 'League Gothic', sans-serif;
+}
+
+div {
+    margin: 5rem auto;
+}
+div.main1 {
+    text-align: center;
+
+}
+
+div.main2 {
+    margin: auto 3rem;
+}
+
+.suggester {
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 1rem auto;
+}
+
+#heading {
+    color: blue;
+}
+p{
+    font-size: 1.3em;
+    padding: 3px;
+    margin: 3px auto;
+}
+.popular {
+    border: 4px dotted red;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 15px;
+    cursor: pointer;
+  }
