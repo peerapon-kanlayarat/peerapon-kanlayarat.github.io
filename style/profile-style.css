@@ -1,0 +1,196 @@
+* {
+    font-family: 'Secular One', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(61, 0, 76);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    overflow: hidden;
+    width: 80%;
+    height: 1850px;
+    margin-top: 0;
+    background-color: white;
+    border-radius: 20px;
+}
+header {
+    margin: 0 auto;
+    background-color: rgb(121, 0, 151);
+}
+header nav {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav h2 {
+    color: rgb(255, 217, 0);
+    margin: 1px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header nav ul li a:hover {
+    color: rgb(255, 0, 183);
+}
+ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: auto 20px;
+    list-style: none;
+}
+
+.topic {
+    margin-top: 80px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 span {
+    color: rgb(255, 153, 0);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#peerapon {
+    margin-left: 150px;
+}
+#kanlayarat{
+    margin-left: 220px;
+}
+
+.profile-img {
+    margin-right: 170px;
+    border: solid 5px rgb(255, 153, 0);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.complain-1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.complain-1 p {
+    color: rgb(150, 150, 150);
+}
+
+.complain-1 hr {
+    width: 70%;
+}
+
+#KKU-1 {
+    color: rgb(121, 0, 151);
+}
+
+.obj {
+    margin-top: 130px;
+    text-align: center;
+}
+.obj p {
+    margin-top: 40px;
+}
+.skl {
+    margin-top: 130px;
+    text-align: center;
+}
+.exp {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(121, 0, 151);
+    border: none;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button4 {border-radius: 12px;}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {background-color: #f2f2f2;}
+
+  footer {
+    margin-top: 130px;
+    padding-top: 10px;
+    padding-left: 40px;
+    display:flex;
+    height: 300px;
+    background-color: black;
+  }
+  h3 {
+    color: white;
+    margin-left: 20px;
+  }
+
+  .mylist li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .mylist {
+    margin-top: 0;
+    margin-right: 50px;
+    padding-left: 50px;
+    display: inline-block;
+  }
+
+  .mylist li {
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  input[type=text] {
+    width: 30%;
+    margin-left: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus {
+    width: 80%;
+  }
+
+  .fb:hover {
+    color: rgb(255, 0, 183);
+  }
