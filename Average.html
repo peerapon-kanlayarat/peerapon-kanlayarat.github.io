@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function readInput(n) {
+            var input_Integer = [];
+            if (n > 0) {
+                do {
+                    input_Integer.push(n);
+                    askUser();
+                } while (n < 0)
+                
+            }
+            //return input_Integer;
+            alert(input_Integer.join(","));
+        }
+
+        function displayStats(list) {
+
+        }
+    </script>
+    <script> 
+        function askUser(){
+            var integer = prompt("Enter an integer (a negative integer tp quit):");
+            /*if (integer > 0 ) {
+                readInput(integer);
+            } else {
+                askUser();
+            }*/
+            readInput(integer);
+            //let list = readInput(integer);
+            //alert(list.join(", "));
+        } 
+    </script>
+
+</head>
+<body>
+    <script>
+        askUser();
+    </script>
+</body>
+</html>
